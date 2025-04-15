@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>FAQ Section - Bootstrap</title>
+    <!-- <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    /> -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="navbar"></div>
+    
+    <div class="container2">
+      <aside class="sidebar">
+        <ul>
+          <li class="tab-link active" data-tab="payment"> Payment</li>
+          <li class="tab-link" data-tab="delivery"> Delivery</li>
+          <li class="tab-link" data-tab="return">↩ Cancellation & Return</li>
+          <li class="tab-link" data-tab="orders"> My Orders</li>
+          <li class="tab-link" data-tab="services"> Product & Services</li>
+        </ul>
+      </aside>
+  
+      <main class="content">
+        <!-- Payment Tab -->
+        <div class="tab-content active" id="payment">
+          <h2>Payment</h2>
+          <p class="subheading">Get help with payment</p>
+          <div class="faq">
+            <div class="faq-item active">
+              <div class="faq-question">
+                <h3>When is payment taken for my order?</h3>
+                <span class="toggle-icon">–</span>
+              </div>
+              <p class="faq-answer">Payment is taken during checkout. The order number on the confirmation screen means payment succeeded.</p>
+            </div>
+            <div class="faq-item">
+              <div class="faq-question">
+                <h3>How do I pay for my order?</h3>
+                <span class="toggle-icon">+</span>
+              </div>
+              <p class="faq-answer">You can pay using cards, UPI, wallets, or net banking during checkout.</p>
+            </div>
+            <div class="faq-item">
+              <div class="faq-question">
+                <h3>What should I do if I'm having trouble placing an order?</h3>
+                <span class="toggle-icon">+</span>
+              </div>
+              <p class="faq-answer">Try refreshing, switching browsers, or contact support if the issue persists.</p>
+            </div>
+            <div class="faq-item">
+              <div class="faq-question">
+                <h3>Which license do I need for an end product that is only accessible to paying users?</h3>
+                <span class="toggle-icon">+</span>
+              </div>
+              <p class="faq-answer">You'll need an extended license for that scenario.</p>
+            </div>
+            <div class="faq-item">
+              <div class="faq-question">
+                <h3>Does my subscription automatically renew?</h3>
+                <span class="toggle-icon">+</span>
+              </div>
+              <p class="faq-answer">Yes, it renews automatically unless canceled before the due date.</p>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Delivery Tab -->
+        <div class="tab-content" id="delivery">
+          <h2>Delivery</h2>
+          <p class="subheading">Get help with delivery</p>
+          <div class="faq">
+            <div class="faq-item">
+              <div class="faq-question">
+                <h3>How long does delivery take?</h3>
+                <span class="toggle-icon">+</span>
+              </div>
+              <p class="faq-answer">Delivery typically takes 3-5 business days.</p>
+            </div>
+            <div class="faq-item">
+              <div class="faq-question">
+                <h3>Can I track my order?</h3>
+                <span class="toggle-icon">+</span>
+              </div>
+              <p class="faq-answer">Yes, you'll get a tracking link after the order is shipped.</p>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Other Tabs -->
+        <div class="tab-content" id="return">
+          <h2>Cancellation & Return</h2>
+          <p class="subheading">Help with cancellations and returns</p>
+          <div class="faq">
+            <div class="faq-item">
+              <div class="faq-question">
+                <h3>How long does delivery take?</h3>
+                <span class="toggle-icon">+</span>
+              </div>
+              <p class="faq-answer">Delivery typically takes 3-5 business days.</p>
+            </div>
+            <div class="faq-item">
+              <div class="faq-question">
+                <h3>Can I track my order?</h3>
+                <span class="toggle-icon">+</span>
+              </div>
+              <p class="faq-answer">Yes, you'll get a tracking link after the order is shipped.</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="tab-content" id="orders">
+          <h2>My Orders</h2>
+          <p class="subheading">View your orders</p>
+          <div class="faq">
+            <div class="faq-item">
+              <div class="faq-question">
+                <h3>How long does delivery take?</h3>
+                <span class="toggle-icon">+</span>
+              </div>
+              <p class="faq-answer">Delivery typically takes 3-5 business days.</p>
+            </div>
+            <div class="faq-item">
+              <div class="faq-question">
+                <h3>Can I track my order?</h3>
+                <span class="toggle-icon">+</span>
+              </div>
+              <p class="faq-answer">Yes, you'll get a tracking link after the order is shipped.</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="tab-content" id="services">
+          <h2>Product & Services</h2>
+          <p class="subheading">Learn about our services</p>
+          <div class="faq">
+            <div class="faq-item">
+              <div class="faq-question">
+                <h3>How long does delivery take?</h3>
+                <span class="toggle-icon">+</span>
+              </div>
+              <p class="faq-answer">Delivery typically takes 3-5 business days.</p>
+            </div>
+            <div class="faq-item">
+              <div class="faq-question">
+                <h3>Can I track my order?</h3>
+                <span class="toggle-icon">+</span>
+              </div>
+              <p class="faq-answer">Yes, you'll get a tracking link after the order is shipped.</p>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  
+   
+    <div id="footer"></div>
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="layout.js"></script>
+    <script src="script2.js"></script>
+  </body>
+</html>
