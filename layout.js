@@ -1,5 +1,7 @@
 window.addEventListener('DOMContentLoaded', () => {
-    // Load Navbar
+
+  
+  // Load Navbar
     fetch('navbar.html')
       .then(response => response.text())
       .then(data => {
@@ -11,6 +13,6 @@ window.addEventListener('DOMContentLoaded', () => {
       .then(response => response.text())
       .then(data => {
         document.getElementById('footer').innerHTML = data;
-      });
+   });
 
    });

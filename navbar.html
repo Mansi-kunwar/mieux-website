@@ -1,10 +1,9 @@
-<nav>
+<!-- <nav>
     <div class="logo"><img src="./image/logo.png " alt="Example Image" style="height:40px"></div>
     <div class="nav-links">
       <a href="./index.html">Home</a>
       <a href="./about.html">About</a>
       <a href="#">Services</a>
-      <!-- <a href="#">Support</a> -->
       <div class="dropdown">
         <h5>support</h5>
         <div class="dropdown-content">
@@ -16,4 +15,35 @@
       </div>
       <a href="./contact.html">Contact us</a>
     </div>
-  </nav> 
+  </nav>  -->
+
+<!-- <div style="display:inline-block; margin-bottom: 4%;" > -->
+ 
+    <nav>
+      <div class="logo">
+        <img src="./image/logo.png" alt="Logo">
+      </div>
+  
+      <div class="hamburger" onclick="toggleMenu()">☰</div>
+  
+      <div class="nav-links" id="navLinks">
+        <a href="./index.html">Home</a>
+        <a href="./about.html">About</a>
+        <a href="./services.html">Services</a>
+  
+        <div class="dropdown" id="dropdown">
+          <h5 onclick="toggleDropdown()">Support</h5>
+          <div class="dropdown-content">
+            <a href="#">Support Ticket System</a>
+            <a href="./FAQ.html">FAQ</a>
+            <a href="#">Knowledge Base</a>
+            <a href="#">Download Center</a>
+          </div>
+        </div>
+  
+        <a href="./contact.html">Contact us</a>
+      </div>
+    </nav>
+
+<!-- </div> -->
+ 
