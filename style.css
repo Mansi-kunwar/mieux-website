@@ -1625,7 +1625,7 @@ height: 100px;
   .service-card i {
     font-size: 2.5rem;
     margin-bottom: 15px;
-    color: #3594d5;
+    color: #b5d3f5;
   }
   
   .service-card h3 {
@@ -1636,7 +1636,7 @@ height: 100px;
   .service-card p {
     font-size: 0.9rem;
     line-height: 1.4;
-    color: #d0d0d0;
+    color: #f0f0f0;
   }
 
   /* .service-card a{
@@ -1653,15 +1653,17 @@ height: 100px;
 
   /* Hover effect: like App development card */
   .service-card:hover {
-    background: #007bff;
+    /* background: #007bff; */
     transform: translateY(-5px);
-    color: #fff;
+    /* color: #fff; */
     box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    background: #b5d3f5;
+    color:#3594d5;
   }
   
   .service-card:hover p,
   .service-card:hover i {
-    color: #fff;
+    color:#0a3968;
   }
 
   /* read more button */
