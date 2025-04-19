@@ -1719,6 +1719,7 @@ height: 100px;
 
   .text_styling{
     padding:10px 50px;
+    color:#666;
   }
 
   .accordion-list {
@@ -1773,6 +1774,8 @@ height: 100px;
     overflow: hidden;
     opacity: 0;
     transition: all 0.3s ease;
+
+    color:#666;
   }
   
   /* When checkbox is checked, show content */
@@ -1816,8 +1819,11 @@ height: 100px;
   }
 
   .service_heading{
-    padding:20px;
+    padding:40px 0 20px 0;
     text-align:center;
+    font-weight: 200;
+    font-size:22px;
+
   }
   
   /* Mobile responsive */
@@ -1830,6 +1836,11 @@ height: 100px;
     }
     label .icon {
       font-size:24px;
+  }
+  .service_heading{
+
+    font-size:20px;
+
   }
   }
   /* All the services close */
