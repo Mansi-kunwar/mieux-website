@@ -928,7 +928,7 @@ h3 {
 .container7 {
   display: flex;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 5rem;
   padding: 2rem;
   max-width: 1200px;
   width: 100%;
@@ -1165,7 +1165,7 @@ h3 {
 
 .container6 {
   max-width: 1000px;
-  margin: auto;
+  margin:auto;
   padding: 60px 20px;
 }
 
