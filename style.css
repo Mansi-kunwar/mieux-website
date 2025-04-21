@@ -1798,6 +1798,11 @@ height: 100px;
     border-radius: 8px;
     overflow: hidden;
   }
+
+  .outer-list h2{
+    font-weight: 70;
+    font-size: 95%;
+  }
   
   .accordion-list li {
     position: relative;
