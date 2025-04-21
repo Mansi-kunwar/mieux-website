@@ -247,70 +247,94 @@
   </div>
 </section>
 
-<!-- image slider -->
-<!-- <div class="box-container">
-  <div class="box1">
-    <div class="container">
-      <div class="carousel">
-        <div class="item a"><img src="./image/cloud.jpeg"></div>
-        <div class="item b">B</div>
-        <div class="item c">C</div>
-        <div class="item d">D</div>
-        <div class="item e">E</div>
-        <div class="item f">F</div>
-      </div>
-    </div>
-  </div><br><br>
-
-  <div class="box1">
-    <h1>who we are </h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus sint reiciendis dolores soluta id mollitia quibusdam adipisci ipsam nisi totam ipsa cum voluptatibus optio dolore itaque similique aspernatur, ipsum veniam.</p>
-  </div>
-</div><br><br> -->
-
 <!-- testimonial -->
 
+
 <section class="section__container">
-  <!-- <h2>Testimonials</h2> -->
   <h2>What our customers say</h2>
-  <div class="section__grid">
-    <div class="section__card">
-      <span><i class="ri-double-quotes-l"></i></span><br><br><br>
-      <!-- <h4>Love the simplicity</h4> -->
-      <p>
-        At. Venus Industrial, we strive to be that go-to group that companies can depend on for expertise on demand, Finance, Accounting, and Back office functionality. The server on servers from Mieux Technologies have helped us over the years in achieving this goal, by having availability and very fast deployment of services when needed. They are a pleasure doing business with, and we highly recommend them.
+  <button class="scroll-buttons scroll-left" onclick="scrollLeftSide()">
+    <i class="fas fa-chevron-left"></i>
+  </button>
+  <button class="scroll-buttons scroll-right" onclick="scrollRightSide()">
+    <i class="fas fa-chevron-right"></i>
+  </button>
+  <div class="scroll-wrapper" id="testimonialScroll">
+    <div class="section__grid">
+      
+      <div class="section__card">
+        <span><i class="ri-double-quotes-l"></i></span><br><br><br>
+        <p>
+          At. Venus Industrial, we strive to be that go-to group that companies can depend on for expertise on demand, Finance, Accounting, and Back office functionality.
+        </p>
+        <div class="card-footer">
+          <h5>Deepak</h5>
+          <h6>CTO - VENUS INDUSTRIES</h6>
+        </div>
+      </div>
 
-      </p>
-      <!-- <img src="assets/user-1.jpg" alt="user" /> -->
-      <h5>Deepak</h5>
-      <h6>CTO - VENUS INDUSTRIES</h6>
-    </div>
-    <div class="section__card">
-      <span><i class="ri-double-quotes-l"></i></span><br><br><br>
-      <!-- <h4>Excellent Designs</h4> -->
-      <p>
-        For Vizion India, ERP on cloud - Mieux is a key partner in the services we are using. Our private cloud, hosted by Mieux, allows us to offer our clients the best possible and most reliable services with the flexibility to grow as needed. In our experience, the services by Mieux are second to none, and we recommend to anyone looking for a reliable cloud partner.
+      <div class="section__card">
+        <span><i class="ri-double-quotes-l"></i></span><br><br><br>
+        <p>
+          For Vizion India, ERP on cloud - Mieux is a key partner in the services we are using. Our private cloud, hosted by Mieux, allows us to offer our clients the best possible services.
+        </p>
+        <div class="card-footer">
+          <h5>Komal Sharma</h5>
+          <h6>VISION INDIA</h6>
+        </div>
+      </div>
 
-      </p>
-      <!-- <img src="assets/user-2.jpg" alt="user" /> -->
-      <h5>Komal Sharma</h5>
-      <h6>VISION INDIA</h6>
-    </div>
-    <div class="section__card">
-      <span><i class="ri-double-quotes-l"></i></span><br><br><br>
-      <!-- <h4>Efficient and Reliable</h4> -->
-      <p>
-        I wanted to comment on Jasmeet for the work that he did in helping us out with our Tally accounting
-        software online today. He did the best job ever. He saw the problem and immediately applied the necessary
-        security measures and fixed them. Our application was back up as soon as I checked my email for the support's response. I found out it was done. He put out that fire like a seasoned firefighter. He is definitely an asset to Mieux Company. I'm very grateful for his fast service.
-        
-      </p>
-      <!-- <img src="assets/user-3.jpg" alt="user" /> -->
-      <h5>Laxmikant</h5>
-      <h6>CINNTRA INFOTECH SOLUTIONS PVT. LTD.</h6>
+      <div class="section__card">
+        <span><i class="ri-double-quotes-l"></i></span><br><br><br>
+        <p>
+          I wanted to comment on Jasmeet for the work that he did in helping us out with our Tally accounting software online today. He did the best job ever.
+        </p>
+        <div class="card-footer">
+          <h5>Laxmikant</h5>
+          <h6>CINNTRA INFOTECH SOLUTIONS PVT. LTD.</h6>
+        </div>
+      </div>
+
+      <!-- Add more cards as needed -->
+      
+           <div class="section__card">
+        <span><i class="ri-double-quotes-l"></i></span><br><br><br>
+        <p>
+          I wanted to comment on Jasmeet for the work that he did in helping us out with our Tally accounting software online today. He did the best job ever.
+        </p>
+        <div class="card-footer">
+          <h5>Laxmikant</h5>
+          <h6>CINNTRA INFOTECH SOLUTIONS PVT. LTD.</h6>
+        </div>
+      </div>
+      
+           <div class="section__card">
+        <span><i class="ri-double-quotes-l"></i></span><br><br><br>
+        <p>
+          I wanted to comment on Jasmeet for the work that he did in helping us out with our Tally accounting software online today. He did the best job ever.
+        </p>
+        <div class="card-footer">
+          <h5>Laxmikant</h5>
+          <h6>CINNTRA INFOTECH SOLUTIONS PVT. LTD.</h6>
+        </div>
+      </div>
+      
+           <div class="section__card">
+        <span><i class="ri-double-quotes-l"></i></span><br><br><br>
+        <p>
+          I wanted to comment on Jasmeet for the work that he did in helping us out with our Tally accounting software online today. He did the best job ever.
+        </p>
+        <div class="card-footer">
+          <h5>Laxmikant</h5>
+          <h6>CINNTRA INFOTECH SOLUTIONS PVT. LTD.</h6>
+        </div>
+      </div>
+
     </div>
   </div>
-</section><br>
+</section>
+
+<!-- testimonial close -->
+
 <center><h4>INDUSTRIES WE DEAL IN</h4></center>
 
  
@@ -325,8 +349,6 @@
 </div>
 
 <!-- industries -->
-
-
 
 <div class="logo-slider">
   <div class="logo-slider-track">
@@ -366,7 +388,7 @@
 
 
 <div id="footer"></div>  
-<script src="imageslider.js"></script>
+<script src="testimonial.js"></script>
 
 <script src="script.js"></script>
 
