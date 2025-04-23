@@ -1465,38 +1465,24 @@ aside.sidebar {
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
-    gap: 20px;
-    padding: 40px 0px;
-    
+    gap: 100px;
+    padding: 40px 20px;
   }
   
   .form-container {
     background-color: #ffffff;
-    padding: 40px 30px;
+    padding: 24px 32px;
     border-radius: 16px;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
-    /* flex: 1 1 400px; */
-    min-width: 300px;
-    max-width: 500px;
+    min-width: 260px;
+    max-width: 360px;
+    width: 100%;
     transition: transform 0.3s;
-    width: 400px;
-    /* height:200px; */
   }
-  
-  .form-container:hover {
-    transform: translateY(-4px);
-  }
-  
-  /* h2 {
-    text-align: center;
-    margin-bottom: 25px;
-    color: #2b2b2b;
-  } */
   
   form label {
     display: block;
     margin-top: 8px;
-    /* margin-bottom: 8px; */
     color: #333;
     font-weight: 500;
   }
@@ -1504,18 +1490,20 @@ aside.sidebar {
   form input,
   form textarea {
     width: 100%;
-    height: 30px;
-    padding: 14px 16px;
+    height: 36px;
+    padding: 10px 0;
     border: 1px solid #ccc;
-    border-radius: 12px;
-    font-size: 15px;
+    border-radius: 10px;
+    font-size: 14px;
     background-color: #f9f9f9;
     box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05);
     transition: all 0.2s ease;
+    margin:10px 0;
   }
-
+  
   form textarea {
-height: 100px;
+    height: 80px;
+    
   }
   
   form input:focus,
@@ -1527,15 +1515,15 @@ height: 100px;
   }
   
   button {
-    width: 50%;
-    padding: 14px;
+    width: 100%;
+    padding: 12px;
     background: linear-gradient(to right, #3594d5, #2673ab);
     color: white;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: bold;
     border: none;
-    border-radius: 12px;
-    margin-top: 25px;
+    border-radius: 10px;
+    margin-top: 20px;
     cursor: pointer;
     transition: background 0.3s, transform 0.2s;
   }
@@ -1549,25 +1537,71 @@ height: 100px;
     margin-top: 20px;
     color: green;
     text-align: center;
-    font-size: 15px;
+    font-size: 14px;
   }
   
   .map {
-    flex: 1 1 400px;
-    min-width: 300px;
-    max-width: 500px;
+    min-width: 260px;
+    max-width: 360px;
+    width: 100%;
   }
   
   .map iframe {
-    margin: 20% 0 0 10%;
-    width:80%;
-    height: 80%;
-    max-height: 600px; /* or 650px or more as per your design */
-    min-height: 450px;
+    width: 100%;
+  /*   height: 440px; */
+    height: 650px;
+  /*   height: 100%; */
     border: 0;
     border-radius: 16px;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
   }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .contact-form {
+      flex-direction: column;
+      align-items: center;
+      padding: 30px 10px;
+      gap: 25px;
+    }
+  
+    .form-container,
+    .map {
+      max-width: 90%;
+      padding: 20px;
+    }
+  
+    .map iframe {
+      height: 360px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .form-container,
+    .map {
+      max-width: 100%;
+      padding: 16px;
+    }
+  
+    form input,
+    form textarea {
+      padding: 8px 10px;
+      font-size: 13px;
+    }
+  
+    button {
+      padding: 10px;
+      font-size: 14px;
+    }
+  
+    .map iframe {
+      height: 280px;
+    }
+  }
+  
+ 
+  /* form close */
+
 
   /* image-slider */
 
