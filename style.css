@@ -1430,8 +1430,13 @@ aside.sidebar {
     padding: 20px 15px;
   }
 
+  .content h2 {
+    font-size:100%;
+  }
+
+
   .faq-question h3 {
-    font-size: 18px;
+    font-size: 100%;
   }
 
   .faq-answer {
@@ -1449,6 +1454,9 @@ aside.sidebar {
   }
 }
 
+.faq-question h3 {
+  font-size: 100%;
+}
 
   /* form */
   
