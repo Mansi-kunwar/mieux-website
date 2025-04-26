@@ -29,13 +29,27 @@
 
     <script src="layout.js"></script>
     <script src="nav-mobile.js"></script>
+     <!-- <script>
+      const images = [
+        'image/cloud.png',
+        'image/cloudsec.png',
+        'image/cloud2.png'
+      ];
+      let currentImage = 0;
+      
+      setInterval(() => {
+        currentImage = (currentImage + 1) % images.length;
+        document.getElementById('banner').style.backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.3)), url(${images[currentImage]})`;
+      }, 3000);
+      </script> 
+       -->
   </head>
   <body>
     <!-- navigation bar -->
     <div id="navbar"></div>
 
     <!-- home page banner  -->
-    <main>
+     <main>
       <div id="banner">
         <h3>IT SOLUTIONS AGENCY</h3>
         <h1>
@@ -45,7 +59,9 @@
         <p>Cloud-Driven. Security-Focused. Performance-Oriented</p>
       </div>
     </main>
-    <br />
+    <br/> 
+    
+    
 
     <!-- who we are  -->
 
